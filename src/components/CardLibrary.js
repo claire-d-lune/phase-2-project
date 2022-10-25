@@ -13,6 +13,7 @@ const CardLibrary = ({deck, searchTerm, setSearch}) => {
             name={card.name} 
             arcana={card.suit}
             description={card.desc}
+            image={card.image_front}
             />
         )
     })
