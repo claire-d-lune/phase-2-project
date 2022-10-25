@@ -6,9 +6,8 @@ const SearchBar = ({searchTerm, setSearch}) => {
     setSearch(e.target.value)
   }
 
-
-
-  return <div className="ui large fluid icon input">
+  return (
+  <div className="search-bar">
     <input
       type="text"
       placeholder="Search..."
@@ -16,7 +15,7 @@ const SearchBar = ({searchTerm, setSearch}) => {
       onChange={handleSearch}
     />
     <i className="circular search link icon"></i>
-  </div>
+  </div>);
 }
 
 export default SearchBar;

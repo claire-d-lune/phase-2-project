@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from "react-router-dom"
 
 import NavBar from './components/NavBar';
-import CardLibrary from './pages/CardLibrary';
-import FortuneTeller from './pages/FortuneTeller';
-import SavedFortunes from './pages/SavedFortunes';
-import NewCardPage from './pages/NewCardPage';
+import CardLibrary from './components/CardLibrary';
+import FortuneTeller from './components/FortuneTeller';
+import SavedFortunes from './components/SavedFortunes';
+import NewCardPage from './components/NewCardPage';
 import './styling/App.css';
-// import { Route, Switch } from "react-router-dom";
 
 function App() {
 
@@ -20,8 +19,6 @@ function App() {
     .then(data => setDeck([...data]))
 
   }, []);
-
-  console.log("Search term is: " + searchTerm)
 
   const cardsInSearch = deckContents.filter(card => {
     return card.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -41,4 +38,4 @@ function App() {
   );
 }
 
-export default App;``
+export default App;

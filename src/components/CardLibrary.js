@@ -1,12 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import SearchBar from "../components/SearchBar";
 import TarotCard from "../components/TarotCard";
 
 const CardLibrary = ({deck, searchTerm, setSearch}) => {
-
-    console.log("Deck is: ")
-    console.log(deck)
-
+    const [arcanaFilter, setArcana] = useState("All")
+    
+    
     const cardList = deck.map((card) => {
         return (
             <TarotCard 
@@ -20,11 +19,15 @@ const CardLibrary = ({deck, searchTerm, setSearch}) => {
 
 
     return (
-        <div>
-            <h1>Card Library:</h1>
+        <>
             <SearchBar searchTerm={searchTerm} setSearch={setSearch}/>
-            {cardList}
-        </div>
+            <div className="primary-content">
+                
+                <div class="grid grid-flow-row grid-cols-4">        
+                {cardList}
+                </div>
+            </div>
+        </>
     )
 }
 
