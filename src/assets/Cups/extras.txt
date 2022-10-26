@@ -1,0 +1,14 @@
+wands2 
+wands3 
+wands4 
+wands5 
+wands6 
+wands7 
+wands8 
+wands9 
+wands10
+wandsAce 
+wandsKing
+wandsKnight
+wandsPage
+wandsQueen

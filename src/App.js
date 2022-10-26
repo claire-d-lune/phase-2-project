@@ -26,14 +26,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Tera's Magic Library</h1>
-      <NavBar/>
-      <Routes>
-        <Route path="/"  element={<CardLibrary deck={cardsInSearch} searchTerm={searchTerm} setSearch={setSearch}/>}/>
-        <Route path="fortune_teller"  element={<FortuneTeller deck={deckContents}/>}/>
-        <Route path="my_fortunes"  element={<SavedFortunes/>}/>
-        <Route path="custom_card"  element={<NewCardPage/>}/>
-      </Routes>
+        <h1 class="text-lg underline">Tera's Magic Library</h1>
+        <NavBar/>
+        <Routes>
+          <Route path="/"  element={<CardLibrary deck={cardsInSearch} searchTerm={searchTerm} setSearch={setSearch}/>}/>
+          <Route path="fortune_teller"  element={<FortuneTeller deck={deckContents}/>}/>
+          <Route path="my_fortunes"  element={<SavedFortunes/>}/>
+          <Route path="custom_card"  element={<NewCardPage/>}/>
+        </Routes>
     </div>
   );
 }

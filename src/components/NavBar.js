@@ -4,10 +4,18 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
     return(
         <div className="navbar">
-            <NavLink to="">Home</NavLink>
-            <NavLink to="fortune_teller">Tell my Fortune</NavLink>
-            <NavLink to="my_fortunes">Saved Fortunes</NavLink>
-            <NavLink to="custom_card">Add a Custom Card</NavLink>
+            <div class="flex-basis-auto">
+                <NavLink class="p-6"to="">Home</NavLink>
+            </div>
+            <div class="flex-basis-auto">
+                <NavLink class="p-6" to="fortune_teller">Tell my Fortune</NavLink>
+            </div>
+            <div class="flex-basis-auto">
+                <NavLink class="p-6" to="my_fortunes">Saved Fortunes</NavLink>
+            </div>
+            <div class="flex-basis-auto">
+                <NavLink class="p-6" to="custom_card">Add a Custom Card</NavLink>
+            </div>
         </div>
     );
 }
