@@ -14,23 +14,26 @@ body {
 .App {
   display: grid;
   grid-template-columns: [co1-start] 10fr [co2] 70fr [co3] 10fr;
-  grid-template-rows: [row1-start] 10fr [row2] 20fr [row3] auto [row4] auto [row5] auto [row6] auto [row7] auto;
+  grid-template-rows: [row1-start] 30fr [row2] auto [row3] auto [row4] auto [row5] auto [row6] auto [row7] auto;
 
   grid-template-areas: 
       ". header ."
-      "nav nav nav"
+      ". nav ."
       ". search ."
       ". content .";
-      
   gap: 5px;
 }
 
 .App > h1 {
   grid-area: header;
+  font-size: x-large;
+  background-color: rgb(187, 71, 225);
+
 }
 
 .navbar {
   grid-area: nav;
+  background-color: blanchedalmond;
 }
 
 .search-bar {

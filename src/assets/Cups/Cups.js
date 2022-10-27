@@ -7,7 +7,7 @@ const cups4 = require("./cups4.jpg")
 const cups5 = require("./cups5.jpg")
 const cups6 = require("./cups6.jpg")
 const cups7 = require("./cups7.jpg")
-const cups8 = require("./cups3.jpg")
+const cups8 = require("./cups8.jpg")
 const cups9 = require("./cups9.jpg")
 const cups10 = require("./cups10.jpg")
 const cupsAce = require("./cupsAce.jpg")
@@ -25,7 +25,7 @@ const swords4 = require("./swords4.jpg")
 const swords5 = require("./swords5.jpg")
 const swords6 = require("./swords6.jpg")
 const swords7 = require("./swords7.jpg")
-const swords8 = require("./swords3.jpg")
+const swords8 = require("./swords8.jpg")
 const swords9 = require("./swords9.jpg")
 const swords10 = require("./swords10.jpg")
 const swordsAce = require("./swordsAce.jpg")
@@ -40,7 +40,7 @@ const pents4 = require("./pents4.jpg")
 const pents5 = require("./pents5.jpg")
 const pents6 = require("./pents6.jpg")
 const pents7 = require("./pents7.jpg")
-const pents8 = require("./pents3.jpg")
+const pents8 = require("./pents8.jpg")
 const pents9 = require("./pents9.jpg")
 const pents10 = require("./pents10.jpg")
 const pentsAce = require("./pentsAce.jpg")
@@ -55,7 +55,7 @@ const wands4 = require("./wands4.jpg")
 const wands5 = require("./wands5.jpg")
 const wands6 = require("./wands6.jpg")
 const wands7 = require("./wands7.jpg")
-const wands8 = require("./wands3.jpg")
+const wands8 = require("./wands8.jpg")
 const wands9 = require("./wands9.jpg")
 const wands10 = require("./wands10.jpg")
 const wandsAce = require("./wandsAce.jpg")
@@ -156,7 +156,7 @@ export const imageObject = {
     'cu09': cups9, 
     'cu10': cups10, 
     
-    'pepa': pentsAce, 
+    'pepa': pentsPage, 
     'pekn': pentsKnight, 
     'pequ': pentsQueen, 
     'peki': pentsKing, 
