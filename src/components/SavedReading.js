@@ -1,10 +1,16 @@
 import React, {useState} from "react";
 import TarotCard from "./TarotCard";
 
-const SealedFortune = ({reading}) =>  {
+const SavedReading = ({reading}) =>  {
 
+    console.log(reading)
+
+    const myCards = [reading[0], reading[1], reading[2]]
+    const interpretation = reading.interpretation
+
+    console.log(interpretation)
     
-    const cardList = selection.map((card) => {
+    const cardList = myCards.map((card) => {
         return (
             <TarotCard 
             key={card.name} 
@@ -13,16 +19,14 @@ const SealedFortune = ({reading}) =>  {
             type={card.type}
             description={card.desc}
             shortName={card.name_short}
+            meaningUp={card.meaning_up}
+            meaningRev={card.meaning_rev}
             />
         )
     })
 
-    const handleChangeInterpretation = (e) => {
-        setInterpretation(e.target.value)
-    }
-
     return (
-        <div class="container mx-auto">
+        <div class="container mx-auto bg-inherit">
             <h3>Your Reading:</h3>
             <div class="grid grid-flow-row grid-cols-3">
                 {cardList}
@@ -31,13 +35,12 @@ const SealedFortune = ({reading}) =>  {
             <form action="/action_page.php">
                 <label>Your Fate is Written:</label>
                     <br></br>
-{                   <textarea onChange={handleChangeInterpretation} rows="3" cols="150" value={myInterpretation}></textarea>
-}                <input type="submit" value="Submit"/>
+                   <p class="text-center">{interpretation}</p>
             </form>
-            <button onClick={handleFave}>Delete</button>
+            <button>Delete</button>
         </div>
     )
 
 }
 
-export default SealedFortune;
+export default SavedReading;

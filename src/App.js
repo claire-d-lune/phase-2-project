@@ -43,8 +43,15 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path="/" element={<CardLibrary deck={cardsInSearch} searchTerm={searchTerm} setSearch={setSearch}/>}/>
-          <Route path="fortune_teller" element={<FortuneTeller deck={deckContents} savedFortunes={savedFortunes} setSavedFortunes={setSavedFortunes}/>}/>
-          <Route path="my_fortunes"  element={<SavedFortunes savedFortunes={savedFortunes}/>}/>
+          <Route path="fortune_teller" element={
+            <FortuneTeller 
+            deck={deckContents}  
+            savedFortunes={savedFortunes}
+            setSavedFortunes={setSavedFortunes}/>}/>
+          <Route path="my_fortunes"  element={
+            <SavedFortunes 
+              setSavedFortunes={setSavedFortunes}
+              savedFortunes={savedFortunes}/>}/>
           <Route path="custom_card"  element={<NewCardPage/>}/>
         </Routes>
     </div>

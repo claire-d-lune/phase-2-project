@@ -21,7 +21,6 @@ body {
       ". nav ."
       ". search ."
       ". content .";
-  gap: 5px;
 }
 
 .App > h1 {
@@ -42,6 +41,7 @@ body {
 
 .primary-content {
   grid-area: content;
+  background-color: rgb(238 242 255, 1); 
 }
 
 code {

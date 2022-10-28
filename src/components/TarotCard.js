@@ -2,57 +2,78 @@ import React, { useState } from "react";
 // import {cups2, cups3} from "../assets/Cups/Cups.js"
 import { imageObject } from "../assets/Cups/Cups.js"
 
-const TarotCard = ({name, type, shortName,zIndex = 100, description}) => {
+const TarotCard = ({name, type, shortName, zIndex = 100, description, meaningUp, meaningRev}) => {
 
     // console.log(imageObject[shortName])
     const [isOpen, setIsOpen] = useState(false);
     // const [showDetails, setShowDetails] = useState(false)
 
     const toggleIsOpen = () => {
+        console.log("toggling")
 		setIsOpen(!isOpen);
 	};
+
 
     return (
         <div class="max-w-sm rounded overflow-hidden shadow-md p-3" onClick={toggleIsOpen}>
             <div class="font-bold text-xl mt-2">{name}</div>
-            <img class="w-full" src={imageObject[shortName]} alt="Sunset in the mountains"></img>
+            <img class="w-full" src={imageObject[shortName]} alt={name}></img>
             <p class="text-gray-700 text-base">{`Arcana: ${type}`}</p>
             {isOpen ?
-				<div onClick={toggleIsOpen}  style={{
-					position: 'fixed',
-					top: '10vw',
-					left: '20vw',
-					height: 'auto',
-					width: '60vw',
-					backgroundColor: 'rgba(252, 245, 229,1)',
-					cursor: 'pointer',
-					zIndex
-				}}>
-					<img src={imageObject[shortName]}
-						alt={name}
-						style={{
-							height: 'auto',
-							width: '30%',
-                            top: '5em',
-                            left:"18em"
-						}}
-					/>
+                <div class="w-screen h-screen fixed left-0 top-0 z-20" onClick={toggleIsOpen}>
+                    <div
+                        style={{
+                        border: "solid",
+                        border_color: "black",
+                        border_radius: "40px",
+                        position: 'fixed',
+                        top: '10vw',
+                        left: '20vw',
+                        height: '35vw',
+                        width: '60vw',
+                        backgroundColor: 'rgba(252, 245, 229,1)',
+                        cursor: 'pointer',
+                        zIndex
+                    }}>
+                        <img 
+                            class="border-solid border-black rounded-sm"
+                            src={imageObject[shortName]}
+                            alt={name}
+                            style={{
+                                height: 'auto',
+                                width: '30%',
+                                top: '5em',
+                                left:"18em"
+                            }}
+                        />
 
-                    <div class="font-bold text-xl text-black underline mt-2" 
-                    style={{
-					position: 'fixed',
-					top: '11vw',
-					left: '18',
-					height: '52.5vh',
-					width: '60vw' }}>{name}</div>
+                        <div class="font-bold text-xl text-black underline mt-2 overflow-y-scroll"
+                        style={{
+                        position: 'fixed',
+                        top: '11vw',
+                        left: '27vw',
+                        height: '30vw',
+                        width: '60vw' }}>{name}</div>
 
-                    <p style={{
-					position: 'fixed',
-					top: '14vw',
-					left: '38vw',
-					height: '52.5vh',
-					width: '40vw' }}>{description}</p>
-                    
+                        <div 
+                        class="overflow-scroll"
+                        style={{
+                        position: 'fixed',
+                        top: '14vw',
+                        left: '40vw',
+                        height: '30vw',
+                        width: '35vw' }}>
+                                {/* <h2 class="font-bold text-xl text-black underline mt-2" >{name}</h2> */}
+                                <p class="font-bold text-l text-black underline ">Description:</p>
+                                <p>{description}</p>
+                                <br></br>
+                                <p class="font-bold text-l text-black underline ">Meaning, Facing Up:</p>
+                                <p>{meaningUp}</p>
+                                <br></br>
+                                <p class="font-bold text-l text-black underline ">Meaning, Inverted:</p>
+                                <p>{meaningRev}</p>
+                        </div>
+                    </div> 
 				</div>
 				: null}
             {/* <div class="px-6 py-4">
@@ -66,20 +87,8 @@ const TarotCard = ({name, type, shortName,zIndex = 100, description}) => {
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
             </div> */}
          </div>
-
-
     )
 
 }
 
 export default TarotCard;
-
-
-   // <div class="container mx-auto px-3">
-        //     <p class="text-lg text-blue-600/100 ">{name}</p>
-        //     <img src={imageObject[shortName]} alt={"Picture of:" + name}></img>
-        //     {/* <div style={`background-image:${imageObject[shortName]}`}></div> */}
-        //     {/* <img src={require("../assets/Major/chariot.jpg")} alt={"Picture of:" + name}></img> */}
-        //     <p>Arcana: {type}</p>
-        //     {/* <p>{description}</p> */}
-        // </div>

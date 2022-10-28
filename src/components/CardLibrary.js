@@ -14,6 +14,8 @@ const CardLibrary = ({deck, searchTerm, setSearch}) => {
             name={card.name} 
             suit={card.suit}
             type={card.type}
+            meaningUp={card.meaning_up}
+            meaningRev={card.meaning_rev}
             description={card.desc}
             shortName={card.name_short}
             />

@@ -2,22 +2,23 @@ import React, {useState} from "react";
 import FortuneCard from "./FortuneCard"
 
 
-const FortuneTeller = ({deck}) => {
+const FortuneTeller = ({deck, savedFortunes, setSavedFortunes}) => {
+    //State is used to store reading history
     const [fortuneList, setFortuneList] = useState([])
-    //Shuffle the Deck
-    const shuffleDeck = deck.sort((a, b) => 0.5 - Math.random());
+
+    //Shuffle the Deck -- I forgot to use spread before and kept shuffling my library.
+    const shuffleDeck = [...deck].sort((a, b) => 0.5 - Math.random())
+
     //Slice three from shuffled deck, update list of fortunes. 
-    
     const handleClick = () => {
         const newFortune = shuffleDeck.slice(0,3)
         setFortuneList([newFortune, ...fortuneList])
     }
 
+    //Mapping fortune history on render
     const fortuneCards = fortuneList.map((selection) => {
-        return <FortuneCard key={Math.random() * 100} selection={selection} />
+        return <FortuneCard key={Math.random() * 100} selection={selection} savedFortunes={savedFortunes} setSavedFortunes={setSavedFortunes}/>
     })
-
-
 
     return (
     <div className="primary-content">

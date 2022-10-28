@@ -18,4 +18,4 @@ const SearchBar = ({searchTerm, setSearch}) => {
   </div>);
 }
 
-export default SearchBar;
+export default SearchBar;``
