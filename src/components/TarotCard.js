@@ -51,7 +51,7 @@ const TarotCard = ({name, type, shortName, zIndex = 100, description, meaningUp,
                         style={{
                         position: 'fixed',
                         top: '11vw',
-                        left: '27vw',
+                        left: '29vw',
                         height: '30vw',
                         width: '60vw' }}>{name}</div>
 
@@ -62,7 +62,7 @@ const TarotCard = ({name, type, shortName, zIndex = 100, description, meaningUp,
                         top: '14vw',
                         left: '40vw',
                         height: '30vw',
-                        width: '35vw' }}>
+                        width: '38vw' }}>
                                 {/* <h2 class="font-bold text-xl text-black underline mt-2" >{name}</h2> */}
                                 <p class="font-bold text-l text-black underline ">Description:</p>
                                 <p>{description}</p>

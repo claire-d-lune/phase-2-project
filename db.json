@@ -916,367 +916,46 @@
   "fortunes": [
     {
       "0": {
-        "image_front": "../assets/Cups/cupsQueen.jpg",
-        "name": "Queen of Cups",
-        "name_short": "cuqu",
-        "value": "queen",
-        "value_int": 13,
-        "suit": "cups",
+        "image_front": "../assets/Swords/swords7.jpg",
+        "name": "Seven of Swords",
+        "name_short": "sw07",
+        "value": "seven",
+        "value_int": 7,
+        "suit": "swords",
         "type": "minor",
-        "meaning_up": "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
-        "meaning_rev": "The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.",
-        "desc": "Beautiful, fair, dreamy--as one who sees visions in a cup. This is, however, only one of her aspects; she sees, but she also acts, and her activity feeds her dream."
+        "meaning_up": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+        "meaning_rev": "Good advice, counsel, instruction, slander, babbling.",
+        "desc": "A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand."
       },
       "1": {
-        "image_front": "../assets/Major/devil.jpg",
-        "type": "major",
-        "name_short": "ar15",
-        "name": "The Devil",
-        "value": "15",
-        "value_int": 15,
-        "meaning_up": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
-        "meaning_rev": "Evil fatality, weakness, pettiness, blindness.",
-        "desc": "The design is an accommodation, mean or harmony, between several motives mentioned in the first part. The Horned Goat of Mendes, with wings like those of a bat, is standing on an altar. At the pit of the stomach there is the sign of Mercury. The right hand is upraised and extended, being the reverse of that benediction which is given by the Hierophant in the fifth card. In the left hand there is a great flaming torch, inverted towards the earth. A reversed pentagram is on the forehead. There is a ring in front of the altar, from which two chains are carried to the necks of two figures, male and female. These are analogous with those of the fifth card, as if Adam and Eve after the Fall. Hereof is the chain and fatality of the material life.\nThe figures are tailed, to signify the animal nature, but there is human intelligence in the faces, and he who is exalted above them is not to be their master for ever. Even now, he is also a bondsman, sustained by the evil that is in him and blind to the liberty of service. With more than his usual derision for the arts which he pretended to respect and interpret as a master therein, Éliphas Lévi affirms that the Baphometic figure is occult science and magic. Another commentator says that in the Divine world it signifies predestination, but there is no correspondence in that world with the things which below are of the brute. What it does signify is the Dweller on the Threshold without the Mystical Garden when those are driven forth therefrom who have eaten the forbidden fruit."
+        "image_front": "../assets/Wands/wands6.jpg",
+        "name": "Six of Wands",
+        "name_short": "wa06",
+        "value": "six",
+        "value_int": 6,
+        "suit": "wands",
+        "type": "minor",
+        "meaning_up": "The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
+        "meaning_rev": "Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.",
+        "desc": "A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side."
       },
       "2": {
-        "image_front": "../assets/Major/emperor.jpg",
-        "type": "major",
-        "name_short": "ar04",
-        "name": "The Emperor",
-        "value": "4",
-        "value_int": 4,
-        "meaning_up": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
-        "meaning_rev": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity.",
-        "desc": "He has a form of the Crux ansata for his sceptre and a globe in his left hand. He is a crowned monarch--commanding, stately, seated on a throne, the arms of which axe fronted by rams' heads. He is executive and realization, the power of this world, here clothed with the highest of its natural attributes. He is occasionally represented as seated on a cubic stone, which, however, confuses some of the issues. He is the virile power, to which the Empress responds, and in this sense is he who seeks to remove the Veil of Isis; yet she remains virgo intacta.\nIt should be understood that this card and that of the Empress do not precisely represent the condition of married life, though this state is implied. On the surface, as I have indicated, they stand for mundane royalty, uplifted on the seats of the mighty; but above this there is the suggestion of another presence. They signify also--and the male figure especially--the higher kingship, occupying the intellectual throne. Hereof is the lordship of thought rather than of the animal world. Both personalities, after their own manner, are \"full of strange experience,\" but theirs is not consciously the wisdom which draws from a higher world. The Emperor has been described as (a) will in its embodied form, but this is only one of its applications, and (b) as an expression of virtualities contained in the Absolute Being--but this is fantasy."
+        "image_front": "../assets/Cups/cups7.jpg",
+        "name": "Seven of Cups",
+        "name_short": "cu07",
+        "value": "seven",
+        "value_int": 7,
+        "suit": "cups",
+        "type": "minor",
+        "meaning_up": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.",
+        "meaning_rev": "Desire, will, determination, project.",
+        "desc": "Strange chalices of vision, but the images are more especially those of the fantastic spirit."
       },
       "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "id": 1
     },
     {
       "0": {
-        "image_front": "../assets/Major/justice.jpg",
-        "type": "major",
-        "name_short": "ar11",
-        "name": "Justice",
-        "value": "11",
-        "value_int": 11,
-        "meaning_up": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
-        "meaning_rev": "Law in all its departments, legal complications, bigotry, bias, excessive severity.",
-        "desc": "As this card follows the traditional symbolism and carries above all its obvious meanings, there is little to say regarding it outside the few considerations collected in the first part, to which the reader is referred.\nIt will be seen, however, that the figure is seated between pillars, like the High Priestess, and on this account it seems desirable to indicate that the moral principle which deals unto every man according to his works--while, of course, it is in strict analogy with higher things;--differs in its essence from the spiritual justice which is involved in the idea of election. The latter belongs to a mysterious order of Providence, in virtue of which it is possible for certain men to conceive the idea of dedication to the highest things. The operation of this is like the breathing of the Spirit where it wills, and we have no canon of criticism or ground of explanation concerning it. It is analogous to the possession of the fairy gifts and the high gifts and the gracious gifts of the poet: we have them or have not, and their presence is as much a mystery as their absence. The law of Justice is not however involved by either alternative. In conclusion, the pillars of Justice open into one world and the pillars of the High Priestess into another."
-      },
-      "1": {
-        "image_front": "../assets/Swords/swordsQueen.jpg",
-        "name": "Queen of Swords",
-        "name_short": "swqu",
-        "value": "queen",
-        "value_int": 13,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
-        "meaning_rev": "Malice, bigotry, artifice, prudery, bale, deceit.",
-        "desc": "Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power."
-      },
-      "2": {
-        "image_front": "../assets/Major/emperor.jpg",
-        "type": "major",
-        "name_short": "ar04",
-        "name": "The Emperor",
-        "value": "4",
-        "value_int": 4,
-        "meaning_up": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
-        "meaning_rev": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity.",
-        "desc": "He has a form of the Crux ansata for his sceptre and a globe in his left hand. He is a crowned monarch--commanding, stately, seated on a throne, the arms of which axe fronted by rams' heads. He is executive and realization, the power of this world, here clothed with the highest of its natural attributes. He is occasionally represented as seated on a cubic stone, which, however, confuses some of the issues. He is the virile power, to which the Empress responds, and in this sense is he who seeks to remove the Veil of Isis; yet she remains virgo intacta.\nIt should be understood that this card and that of the Empress do not precisely represent the condition of married life, though this state is implied. On the surface, as I have indicated, they stand for mundane royalty, uplifted on the seats of the mighty; but above this there is the suggestion of another presence. They signify also--and the male figure especially--the higher kingship, occupying the intellectual throne. Hereof is the lordship of thought rather than of the animal world. Both personalities, after their own manner, are \"full of strange experience,\" but theirs is not consciously the wisdom which draws from a higher world. The Emperor has been described as (a) will in its embodied form, but this is only one of its applications, and (b) as an expression of virtualities contained in the Absolute Being--but this is fantasy."
-      },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "id": 2
-    },
-    {
-      "0": {
-        "image_front": "../assets/Swords/swordsQueen.jpg",
-        "name": "Queen of Swords",
-        "name_short": "swqu",
-        "value": "queen",
-        "value_int": 13,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
-        "meaning_rev": "Malice, bigotry, artifice, prudery, bale, deceit.",
-        "desc": "Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power."
-      },
-      "1": {
-        "image_front": "../assets/Major/emperor.jpg",
-        "type": "major",
-        "name_short": "ar04",
-        "name": "The Emperor",
-        "value": "4",
-        "value_int": 4,
-        "meaning_up": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
-        "meaning_rev": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity.",
-        "desc": "He has a form of the Crux ansata for his sceptre and a globe in his left hand. He is a crowned monarch--commanding, stately, seated on a throne, the arms of which axe fronted by rams' heads. He is executive and realization, the power of this world, here clothed with the highest of its natural attributes. He is occasionally represented as seated on a cubic stone, which, however, confuses some of the issues. He is the virile power, to which the Empress responds, and in this sense is he who seeks to remove the Veil of Isis; yet she remains virgo intacta.\nIt should be understood that this card and that of the Empress do not precisely represent the condition of married life, though this state is implied. On the surface, as I have indicated, they stand for mundane royalty, uplifted on the seats of the mighty; but above this there is the suggestion of another presence. They signify also--and the male figure especially--the higher kingship, occupying the intellectual throne. Hereof is the lordship of thought rather than of the animal world. Both personalities, after their own manner, are \"full of strange experience,\" but theirs is not consciously the wisdom which draws from a higher world. The Emperor has been described as (a) will in its embodied form, but this is only one of its applications, and (b) as an expression of virtualities contained in the Absolute Being--but this is fantasy."
-      },
-      "2": {
-        "image_front": "../assets/Swords/swords2.jpg",
-        "name": "Two of Swords",
-        "name_short": "sw02",
-        "value": "two",
-        "value_int": 2,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
-        "meaning_rev": "Imposture, falsehood, duplicity, disloyalty.",
-        "desc": "A hoodwinked female figure balances two swords upon her shoulders."
-      },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "id": 3
-    },
-    {
-      "0": {
-        "image_front": "../assets/Major/chariot.jpg",
-        "type": "major",
-        "name_short": "ar07",
-        "name": "The Chariot",
-        "value": "7",
-        "value_int": 7,
-        "meaning_up": "Succour, providence also war, triumph, presumption, vengeance, trouble.",
-        "meaning_rev": "Riot, quarrel, dispute, litigation, defeat.",
-        "desc": "An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description which I have given in the first part. On the shoulders of the victorious hero are supposed to be the Urim and Thummim. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that I have accepted the variation of Éliphas Lévi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.\nIt is to be understood for this reason (a) that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; (b) that the planes of his conquest are manifest or external and not within himself; (c) that the liberation which he effects may leave himself in the bondage of the logical understanding; (d) that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and (e) that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called Tora, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood."
-      },
-      "1": {
-        "image_front": "../assets/Swords/swordsPage.jpg",
-        "name": "Page of Swords",
-        "name_short": "swpa",
-        "value": "page",
-        "value_int": 11,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
-        "meaning_rev": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
-        "desc": "A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment."
-      },
-      "2": {
-        "image_front": "../assets/Pentacles/pents4.jpg",
-        "name": "Four of Pentacles",
-        "name_short": "pe04",
-        "value": "four",
-        "value_int": 4,
-        "suit": "pentacles",
-        "type": "minor",
-        "meaning_up": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
-        "meaning_rev": "Suspense, delay, opposition.",
-        "desc": "A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has."
-      },
-      "interpretation": "I write my own fate!!!!\n",
-      "id": 4
-    },
-    {
-      "0": {
-        "image_front": "../assets/Major/hermit.jpg",
-        "type": "major",
-        "name_short": "ar09",
-        "name": "The Hermit",
-        "value": "9",
-        "value_int": 9,
-        "meaning_up": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
-        "meaning_rev": "Concealment, disguise, policy, fear, unreasoned caution.",
-        "desc": "The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that \"where I am, you also may be.\"\nIt is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Éliphas Lévi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term Philosophe inconnu was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared."
-      },
-      "1": {
-        "image_front": "../assets/Cups/cupsKing.jpg",
-        "name": "King of Cups",
-        "name_short": "cuki",
-        "value": "king",
-        "value_int": 14,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
-        "meaning_rev": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
-        "desc": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards."
-      },
-      "2": {
-        "image_front": "../assets/Cups/cupsAce.jpg",
-        "name": "Ace of Cups",
-        "name_short": "cuac",
-        "value": "ace",
-        "value_int": 1,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
-        "meaning_rev": "House of the false heart, mutation, instability, revolution.",
-        "desc": "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana."
-      },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "id": 5
-    },
-    {
-      "0": {
-        "image_front": "../assets/Major/hermit.jpg",
-        "type": "major",
-        "name_short": "ar09",
-        "name": "The Hermit",
-        "value": "9",
-        "value_int": 9,
-        "meaning_up": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
-        "meaning_rev": "Concealment, disguise, policy, fear, unreasoned caution.",
-        "desc": "The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that \"where I am, you also may be.\"\nIt is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Éliphas Lévi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term Philosophe inconnu was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared."
-      },
-      "1": {
-        "image_front": "../assets/Cups/cupsKing.jpg",
-        "name": "King of Cups",
-        "name_short": "cuki",
-        "value": "king",
-        "value_int": 14,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
-        "meaning_rev": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
-        "desc": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards."
-      },
-      "2": {
-        "image_front": "../assets/Cups/cupsAce.jpg",
-        "name": "Ace of Cups",
-        "name_short": "cuac",
-        "value": "ace",
-        "value_int": 1,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
-        "meaning_rev": "House of the false heart, mutation, instability, revolution.",
-        "desc": "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana."
-      },
-      "interpretation": "Blah blah blah \n",
-      "id": 6
-    },
-    {
-      "0": {
-        "image_front": "../assets/Major/hermit.jpg",
-        "type": "major",
-        "name_short": "ar09",
-        "name": "The Hermit",
-        "value": "9",
-        "value_int": 9,
-        "meaning_up": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
-        "meaning_rev": "Concealment, disguise, policy, fear, unreasoned caution.",
-        "desc": "The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that \"where I am, you also may be.\"\nIt is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Éliphas Lévi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term Philosophe inconnu was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared."
-      },
-      "1": {
-        "image_front": "../assets/Cups/cupsKing.jpg",
-        "name": "King of Cups",
-        "name_short": "cuki",
-        "value": "king",
-        "value_int": 14,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
-        "meaning_rev": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
-        "desc": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards."
-      },
-      "2": {
-        "image_front": "../assets/Cups/cupsAce.jpg",
-        "name": "Ace of Cups",
-        "name_short": "cuac",
-        "value": "ace",
-        "value_int": 1,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
-        "meaning_rev": "House of the false heart, mutation, instability, revolution.",
-        "desc": "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana."
-      },
-      "interpretation": "Blah blah blah \n",
-      "id": 7
-    },
-    {
-      "0": {
-        "image_front": "../assets/Cups/cupsKing.jpg",
-        "name": "King of Cups",
-        "name_short": "cuki",
-        "value": "king",
-        "value_int": 14,
-        "suit": "cups",
-        "type": "minor",
-        "meaning_up": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
-        "meaning_rev": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
-        "desc": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards."
-      },
-      "1": {
-        "image_front": "../assets/Major/justice.jpg",
-        "type": "major",
-        "name_short": "ar11",
-        "name": "Justice",
-        "value": "11",
-        "value_int": 11,
-        "meaning_up": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
-        "meaning_rev": "Law in all its departments, legal complications, bigotry, bias, excessive severity.",
-        "desc": "As this card follows the traditional symbolism and carries above all its obvious meanings, there is little to say regarding it outside the few considerations collected in the first part, to which the reader is referred.\nIt will be seen, however, that the figure is seated between pillars, like the High Priestess, and on this account it seems desirable to indicate that the moral principle which deals unto every man according to his works--while, of course, it is in strict analogy with higher things;--differs in its essence from the spiritual justice which is involved in the idea of election. The latter belongs to a mysterious order of Providence, in virtue of which it is possible for certain men to conceive the idea of dedication to the highest things. The operation of this is like the breathing of the Spirit where it wills, and we have no canon of criticism or ground of explanation concerning it. It is analogous to the possession of the fairy gifts and the high gifts and the gracious gifts of the poet: we have them or have not, and their presence is as much a mystery as their absence. The law of Justice is not however involved by either alternative. In conclusion, the pillars of Justice open into one world and the pillars of the High Priestess into another."
-      },
-      "2": {
-        "image_front": "../assets/Wands/wands4.jpg",
-        "name": "Four of Wands",
-        "name_short": "wa04",
-        "value": "four",
-        "value_int": 4,
-        "suit": "wands",
-        "type": "minor",
-        "meaning_up": "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
-        "meaning_rev": "The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.",
-        "desc": "From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nosegays; at their side is a bridge over a moat, leading to an old manorial house."
-      },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "id": 8
-    },
-    {
-      "0": {
-        "image_front": "../assets/Swords/swordsKnight.jpg",
-        "name": "Knight of Swords",
-        "name_short": "swkn",
-        "value": "knight",
-        "value_int": 12,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
-        "meaning_rev": "Imprudence, incapacity, extravagance.",
-        "desc": "He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart."
-      },
-      "1": {
-        "image_front": "../assets/Swords/swordsPage.jpg",
-        "name": "Page of Swords",
-        "name_short": "swpa",
-        "value": "page",
-        "value_int": 11,
-        "suit": "swords",
-        "type": "minor",
-        "meaning_up": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
-        "meaning_rev": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
-        "desc": "A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment."
-      },
-      "2": {
-        "image_front": "../assets/Major/strength.jpg",
-        "type": "major",
-        "name_short": "ar08",
-        "name": "Fortitude",
-        "value": "8",
-        "value_int": 8,
-        "meaning_up": "Power, energy, action, courage, magnanimity; also complete success and honours.",
-        "meaning_rev": "Despotism, abuse if power, weakness, discord, sometimes even disgrace.",
-        "desc": "A woman, over whose head there broods the same symbol of life which we have seen in the card of the Magician, is closing the jaws of a lion. The only point in which this design differs from the conventional presentations is that her beneficent fortitude has already subdued the lion, which is being led by a chain of flowers. For reasons which satisfy myself, this card has been interchanged with that of justice, which is usually numbered eight. As the variation carries nothing with it which will signify to the reader, there is no cause for explanation. Fortitude, in one of its most exalted aspects, is connected with the Divine Mystery of Union; the virtue, of course, operates in all planes, and hence draws on all in its symbolism. It connects also with innocentia inviolata, and with the strength which resides in contemplation.\nThese higher meanings are, however, matters of inference, and I do not suggest that they are transparent on the surface of the card. They are intimated in a concealed manner by the chain of flowers, which signifies, among many other things, the sweet yoke and the light burden of Divine Law, when it has been taken into the heart of hearts. The card has nothing to do with self-confidence in the ordinary sense, though this has been suggested--but it concerns the confidence of those whose strength is God, who have found their refuge in Him. There is one aspect in which the lion signifies the passions, and she who is called Strength is the higher nature in its liberation. It has walked upon the asp and the basilisk and has trodden down the lion and the dragon."
-      },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "id": 9
-    },
-    {
-      "0": {
-        "image_front": "../assets/Pentacles/pents10.jpg",
-        "name": "Ten of Pentacles",
-        "name_short": "pe10",
-        "value": "ten",
-        "value_int": 10,
-        "suit": "pentacles",
-        "type": "minor",
-        "meaning_up": "Gain, riches; family matters, archives, extraction, the abode of a family.",
-        "meaning_rev": "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
-        "desc": "A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them."
-      },
-      "1": {
         "image_front": "../assets/Swords/swords6.jpg",
         "name": "Six of Swords",
         "name_short": "sw06",
@@ -1288,19 +967,82 @@
         "meaning_rev": "Declaration, confession, publicity; one account says that it is a proposal of love.",
         "desc": "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength."
       },
-      "2": {
-        "image_front": "../assets/Major/empress.jpg",
+      "1": {
+        "image_front": "../assets/Major/chariot.jpg",
         "type": "major",
-        "name_short": "ar03",
-        "name": "The Empress",
-        "value": "3",
-        "value_int": 3,
-        "meaning_up": "Fruitfulness, action, initiative, length of days; the unknown, clandestine; also difficulty, doubt, ignorance.",
-        "meaning_rev": "Light, truth, the unravelling of involved matters, public rejoicings; according to another reading, vacillation.",
-        "desc": "A stately figure, seated, having rich vestments and royal aspect, as of a daughter of heaven and earth. Her diadem is of twelve stars, gathered in a cluster. The symbol of Venus is on the shield which rests near her. A field of corn is ripening in front of her, and beyond there is a fall of water. The sceptre which she bears is surmounted by the globe of this world. She is the inferior Garden of Eden, the Earthly Paradise, all that is symbolized by the visible house of man. She is not Regina coeli, but she is still refugium peccatorum, the fruitful mother of thousands. There are also certain aspects in which she has been correctly described as desire and the wings thereof, as the woman clothed with the sun, as Gloria Mundi and the veil of the Sanctum Sanctorum; but she is not, I may add, the soul that has attained wings, unless all the symbolism is counted up another and unusual way. She is above all things universal fecundity and the outer sense of the Word. This is obvious, because there is no direct message which has been given to man like that which is borne by woman; but she does not herself carry its interpretation.\nIn another order of ideas, the card of the Empress signifies the door or gate by which an entrance is obtained into this life, as into the Garden of Venus; and then the way which leads out therefrom, into that which is beyond, is the secret known to the High Priestess: it is communicated by her to the elect. Most old attributions of this card are completely wrong on the symbolism--as, for example, its identification with the Word, Divine Nature, the Triad, and so forth."
+        "name_short": "ar07",
+        "name": "The Chariot",
+        "value": "7",
+        "value_int": 7,
+        "meaning_up": "Succour, providence also war, triumph, presumption, vengeance, trouble.",
+        "meaning_rev": "Riot, quarrel, dispute, litigation, defeat.",
+        "desc": "An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description which I have given in the first part. On the shoulders of the victorious hero are supposed to be the Urim and Thummim. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that I have accepted the variation of Éliphas Lévi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.\nIt is to be understood for this reason (a) that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; (b) that the planes of his conquest are manifest or external and not within himself; (c) that the liberation which he effects may leave himself in the bondage of the logical understanding; (d) that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and (e) that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called Tora, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood."
       },
-      "interpretation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "2": {
+        "image_front": "../assets/Major/lovers.jpg",
+        "type": "major",
+        "name_short": "ar06",
+        "name": "The Lovers",
+        "value": "6",
+        "value_int": 6,
+        "meaning_up": "Attraction, love, beauty, trials overcome.",
+        "meaning_rev": "Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds.",
+        "desc": "The sun shines in the zenith, and beneath is a great winged figure with arms extended, pouring down influences. In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body. Behind the man is the Tree of Life, bearing twelve fruits, and the Tree of the Knowledge of Good and Evil is behind the woman; the serpent is twining round it. The figures suggest youth, virginity, innocence and love before it is contaminated by gross material desire. This is in all simplicity the card of human love, here exhibited as part of the way, the truth and the life. It replaces, by recourse to first principles, the old card of marriage, which I have described previously, and the later follies which depicted man between vice and virtue. In a very high sense, the card is a mystery of the Covenant and Sabbath.\nThe suggestion in respect of the woman is that she signifies that attraction towards the sensitive life which carries within it the idea of the Fall of Man, but she is rather the working of a Secret Law of Providence than a willing and conscious temptress. It is through her imputed lapse that man shall arise ultimately, and only by her can he complete himself. The card is therefore in its way another intimation concerning the great mystery of womanhood. The old meanings fall to pieces of necessity with the old pictures, but even as interpretations of the latter, some of them were of the order of commonplace and others were false in symbolism."
+      },
+      "interpretation": "My new fortune",
+      "id": 2
+    }
+  ],
+  "new_cards": [
+    {
+      "type": "major",
+      "name_short": "ar00",
+      "name": "The Spooooooky Ghost",
+      "meaning_up": "You'll have a good day",
+      "meaning_rev": "You're going to spill your coffee",
+      "suit": "",
+      "desc": "Very spooky fellow. Friends with skeletons. ",
+      "id": 7
+    },
+    {
+      "type": "major",
+      "name_short": "ar00",
+      "name": "Spooky Man",
+      "meaning_up": "Great day",
+      "meaning_rev": "Spooky day",
+      "suit": "",
+      "desc": "A very scary fellow\n",
+      "id": 8
+    },
+    {
+      "type": "minor",
+      "name_short": "ar00",
+      "name": "16th of Cups",
+      "meaning_up": "Maany cups in your future. ",
+      "meaning_rev": "You are going to break so many cups. ",
+      "suit": "cups",
+      "desc": "NEw card",
+      "id": 9
+    },
+    {
+      "type": "minor",
+      "name_short": "ar00",
+      "name": "Blake Skellington",
+      "meaning_up": "You're gonna meet a friendly ghost",
+      "meaning_rev": "You're gonna meet a mean ghost",
+      "suit": "swords",
+      "desc": "This guy has a very famous brother. ",
       "id": 10
+    },
+    {
+      "type": "minor",
+      "name_short": "ar00",
+      "name": "The spooky guy",
+      "meaning_up": "fkjelwahrlf",
+      "meaning_rev": "jkflehwafpie",
+      "suit": "wands",
+      "desc": "eiopwafjewpoiarf",
+      "id": 11
     }
   ]
 }

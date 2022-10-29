@@ -3,10 +3,10 @@ import FortuneCard from "./FortuneCard";
 import SavedReading from "./SavedReading";
 
 
-const SavedFortunes = ({savedFortunes}) => {
+const SavedFortunes = ({savedFortunes, setSavedFortunes}) => {
     
     const fortuneCards = savedFortunes.map((selection) => {
-        return <SavedReading key={Math.random() * 100} reading={selection} />
+        return <SavedReading key={Math.random() * 100} reading={selection} savedFortunes={savedFortunes} setSavedFortunes={setSavedFortunes}/>
     })
 
     return(

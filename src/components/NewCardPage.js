@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const NewCardPage = () => {
+const NewCardPage = ({newCards, setNewCards}) => {
 
     const [newCardInfo, setNewCard] = useState({
         type: "",
@@ -25,6 +25,7 @@ const NewCardPage = () => {
         let deltaCard = {...newCardInfo}
         if (e.target.value.toLowerCase() === "major"){
             deltaCard.type = "major"
+            deltaCard.suit = ""
             setNewCard(deltaCard)
             return
         }
@@ -33,15 +34,45 @@ const NewCardPage = () => {
         setNewCard(deltaCard)
     }
 
-    const handleSubmitCard = () => {
-        
+    const handleSubmitCard = (e) => {
+        e.preventDefault()
+        if((newCardInfo.type !== "") && (newCardInfo.name !== "") && (newCardInfo.meaning_up !== "") && (newCardInfo.meaning_rev !== "") && (newCardInfo.desc !== ""))
+        {
+            console.log("Adding card to deck")
+            console.log(newCardInfo)
+            let configObject = {
+                method: "POST",
+                headers: {"Content-Type" : "application/json"},
+                body: JSON.stringify(newCardInfo)
+            }
+
+            setNewCards([...newCards, newCardInfo])
+
+            fetch(`http://localhost:4000/new_cards`, configObject)
+            .then(res => res.json())
+            .then(data => console.log(data))
+
+
+            alert("Your custom card has been added to library!")
+            setNewCard({
+                type: "",
+                name_short: "ar00",
+                name: "",
+                meaning_up: "",
+                meaning_rev: "",
+                suit:"",
+                desc: ""
+            })
+            return
+        }
+        alert("All inputs must be filled to continue")
     }
 
     return  (
         <div className="primary-content">
             <div class="flex items-center justify-center p-12">
             <div class="mx-auto w-full max-w-[550px]">
-                <form>
+                <form onSubmit={handleSubmitCard}>
                     <div class="mb-5">
                         <label id="name" class="mb-3 block text-base font-medium text-[#07074D]">
                         Name Your Card:
@@ -80,8 +111,7 @@ const NewCardPage = () => {
                         <input
                         onChange={handleInfoChange}
                         value={newCardInfo.meaning_up}
-                        type="email"
-                        name="email"
+                        type="text"
                         id="meaning_up"
                         placeholder="Enter a meaning when pulled upright"
                         class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
@@ -110,9 +140,11 @@ const NewCardPage = () => {
                         Give your Card a Description: 
                         </label>
                         <textarea
+                        onChange={handleInfoChange}
+                        value={newCardInfo.desc}
                         rows="4"
-                        name="message"
-                        id="message"
+                        type="text"
+                        id="desc"
                         placeholder="Provide a description of your card"
                         class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                         ></textarea>

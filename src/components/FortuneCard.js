@@ -42,16 +42,14 @@ const FortuneCard = ({selection, savedFortunes, setSavedFortunes}) =>  {
     return (
         <div class="container mx-auto bg-inherit">
             <h3>Your Reading:</h3>
-            <div class="grid grid-flow-row grid-cols-3">
+            <div class="grid grid-flow-row grid-cols-3 place-items-center">
                 {cardList}
             </div>
             <br></br>
-            <form action="/action_page.php">
-                <label>Your Fate is Written:</label>
-                    <br></br>
-                    <textarea onChange={handleChangeInterpretation} rows="3" cols="120" value={interpretation}></textarea>
-            </form>
-            <button onClick={handleFave}>Save this Fortune</button>
+            <label>Your Fate is Written(but feel free to change it:) </label>
+            <br></br>
+            <textarea onChange={handleChangeInterpretation} rows="5" cols="120" value={interpretation}></textarea>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleFave}>Save this Fortune</button>
         </div>
     )
 

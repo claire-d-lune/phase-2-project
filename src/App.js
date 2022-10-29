@@ -16,6 +16,7 @@ function App() {
   //I am using this to store in state all of the saved fortunes. This will be needed in Saved Fortunes and
   //Tell my Fortune to update the component when a new entry is added.
   const [savedFortunes, setSavedFortunes] = useState([])
+  const [newCards, setNewCards] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:4000/cards")
@@ -31,9 +32,20 @@ function App() {
 
   }, []);
 
-  console.log(savedFortunes)
+  useEffect(() => {
+    fetch("http://localhost:4000/new_cards")
+    .then(res => res.json())
+    .then(data => setNewCards([...data]))
+
+  }, []);
+
+  
 
   const cardsInSearch = deckContents.filter(card => {
+    return card.name.toLowerCase().includes(searchTerm.toLowerCase())
+  })
+  
+  const newCardsInSearch = newCards.filter(card => {
     return card.name.toLowerCase().includes(searchTerm.toLowerCase())
   })
 
@@ -42,7 +54,7 @@ function App() {
         <h1>Tera's Magic Library</h1>
         <NavBar/>
         <Routes>
-          <Route path="/" element={<CardLibrary deck={cardsInSearch} searchTerm={searchTerm} setSearch={setSearch}/>}/>
+          <Route path="/" element={<CardLibrary deck={cardsInSearch} newCards={newCardsInSearch} searchTerm={searchTerm} setSearch={setSearch}/>}/>
           <Route path="fortune_teller" element={
             <FortuneTeller 
             deck={deckContents}  
@@ -52,7 +64,7 @@ function App() {
             <SavedFortunes 
               setSavedFortunes={setSavedFortunes}
               savedFortunes={savedFortunes}/>}/>
-          <Route path="custom_card"  element={<NewCardPage/>}/>
+          <Route path="custom_card"  element={<NewCardPage newCards={newCards} setNewCards={setNewCards}/>}/>
         </Routes>
     </div>
   );
